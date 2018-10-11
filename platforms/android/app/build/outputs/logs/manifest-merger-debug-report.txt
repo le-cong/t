@@ -1,13 +1,29 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:2:1-62:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/f17c2f43b8da7c56e53d631be42b289c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/afe498b497d1d5482332c92100763292/AndroidManifest.xml:2:1-10:12
 MERGED from [:CordovaLib] /Users/lcong/workspace/tttt/platforms/android/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/959096d0e50b37e798cdf147856cf7d1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4ceb0114081f1794a3dc5db4e102082e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/3cd952f76e70b7eaab6821909335fc18/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:17:1-42:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/2237f163cbfb1faaf5256f224be73ca6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/4f99f7ff0f5f7d6834442379d82c7270/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/872d6ff2c5485bbc60e8eff4a8fa265b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/d4a63f3097a47657446f886289e8845f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4fa543b85fe742694923ba7bf563217d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5fc6803ec20a094097a95974f13e51d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/lcong/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/73fbbd3dddbdfc9bdecc60b1e703e0dc/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:2:102-132
 		INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml
@@ -40,10 +56,28 @@ ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidMan
 		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:10:5-67
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:10:5-67
 	android:name
 		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:15:5-60:19
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:15:5-60:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/f17c2f43b8da7c56e53d631be42b289c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/f17c2f43b8da7c56e53d631be42b289c/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/afe498b497d1d5482332c92100763292/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/afe498b497d1d5482332c92100763292/AndroidManifest.xml:8:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/959096d0e50b37e798cdf147856cf7d1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/959096d0e50b37e798cdf147856cf7d1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4ceb0114081f1794a3dc5db4e102082e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4ceb0114081f1794a3dc5db4e102082e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:22:5-26:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:26:5-40:19
 	android:supportsRtl
 		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -78,13 +112,213 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
 	android:name
 		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+receiver#com.zendrive.zendrivesample.utils.MyZendriveBroadcastReceiver
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:12:19-95
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.HOME
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:13:13-16:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:14:17-79
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:14:25-76
+category#android.intent.category.HOME
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:15:17-73
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:15:27-70
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:17:13-19:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:18:17-84
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:18:25-81
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:22:5-79
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:8:5-79
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:23:5-79
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:9:5-79
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:24:5-76
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:7:5-76
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:24:22-73
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:25:5-98
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:25:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:26:22-78
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:27:5-94
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:12:5-94
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:12:5-94
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:27:22-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:28:5-68
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:11:5-68
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:28:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml:29:22-78
 uses-sdk
 INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:5:5-44
+MERGED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/f17c2f43b8da7c56e53d631be42b289c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/f17c2f43b8da7c56e53d631be42b289c/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/afe498b497d1d5482332c92100763292/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/afe498b497d1d5482332c92100763292/AndroidManifest.xml:6:5-43
 MERGED from [:CordovaLib] /Users/lcong/workspace/tttt/platforms/android/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] /Users/lcong/workspace/tttt/platforms/android/CordovaLib/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/959096d0e50b37e798cdf147856cf7d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/959096d0e50b37e798cdf147856cf7d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4ceb0114081f1794a3dc5db4e102082e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4ceb0114081f1794a3dc5db4e102082e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/3cd952f76e70b7eaab6821909335fc18/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/3cd952f76e70b7eaab6821909335fc18/AndroidManifest.xml:20:5-44
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:22:5-24:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/2237f163cbfb1faaf5256f224be73ca6/AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/relinker-1.2.2.aar/2237f163cbfb1faaf5256f224be73ca6/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/4f99f7ff0f5f7d6834442379d82c7270/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/4f99f7ff0f5f7d6834442379d82c7270/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/872d6ff2c5485bbc60e8eff4a8fa265b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/872d6ff2c5485bbc60e8eff4a8fa265b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/d4a63f3097a47657446f886289e8845f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/d4a63f3097a47657446f886289e8845f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4fa543b85fe742694923ba7bf563217d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4fa543b85fe742694923ba7bf563217d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5fc6803ec20a094097a95974f13e51d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5fc6803ec20a094097a95974f13e51d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/lcong/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/73fbbd3dddbdfc9bdecc60b1e703e0dc/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/lcong/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/73fbbd3dddbdfc9bdecc60b1e703e0dc/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:24:9-38
 	android:minSdkVersion
 		INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/lcong/workspace/tttt/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:13:22-74
+uses-library#org.apache.http.legacy
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:16:9-18:40
+	android:required
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:17:13-50
+service#com.zendrive.sdk.services.ZendriveService
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:20:9-23:48
+	android:enabled
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:22:13-61
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:21:13-69
+service#com.zendrive.sdk.services.ZendriveJobService
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:24:9-26:48
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:25:13-72
+service#com.zendrive.sdk.services.TripService
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:27:9-29:48
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:28:13-65
+service#com.zendrive.sdk.services.FileUploaderService
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:30:9-32:48
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:31:13-73
+receiver#com.zendrive.sdk.receiver.WakeupReceiver
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:34:9-36:48
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:35:13-68
+receiver#com.zendrive.sdk.receiver.UserActivityReceiver
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:37:9-39:49
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:39:13-46
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:38:13-74
+receiver#com.zendrive.sdk.receiver.NoPowerLocationUpdateReceiver
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:40:9-42:49
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:42:13-46
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:41:13-83
+receiver#com.zendrive.sdk.receiver.SetupReceiver
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:43:9-45:49
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:45:13-46
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:44:13-67
+receiver#com.zendrive.sdk.receiver.ZendrivePackageReplacedReceiver
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:46:9-52:20
+	android:label
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:48:13-46
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:47:13-85
+provider#com.zendrive.sdk.utilities.ZendriveContentProvider
+ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:54:9-59:20
+	android:enabled
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:57:13-35
+	android:authorities
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:56:13-80
+	android:exported
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from [com.zendrive.sdk.android:ZendriveSDK:5.5.2] /Users/lcong/.gradle/caches/transforms-1/files-1.1/ZendriveSDK-5.5.2.aar/4e839293ca9547f9e5d626ab070ca50d/AndroidManifest.xml:55:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/790eb5c91017c3c345784c2939ee1f19/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/lcong/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/66d816ae5bad813aa821110bda726f89/AndroidManifest.xml:24:13-58
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:33:13-73
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] /Users/lcong/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.8.5.aar/70dc658e75a45f9a3d1c05713affe456/AndroidManifest.xml:37:25-84
