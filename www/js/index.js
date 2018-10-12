@@ -17,30 +17,66 @@
  * under the License.
  */
 var app = {
-    // Application Constructor
-    initialize: function() {
-        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-    },
+  // Application Constructor
+  initialize: function () {
+    document.addEventListener('deviceready', this.onDeviceReady.bind(this), false)
+  },
 
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-        this.receivedEvent('deviceready');
-    },
+  // deviceready Event Handler
+  //
+  // Bind any cordova events here. Common events are:
+  // 'pause', 'resume', etc.
+  onDeviceReady: function () {
+    this.receivedEvent('deviceready')
+    activateZendrive()
+  },
 
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+  // Update DOM on a Received Event
+  receivedEvent: function (id) {
+    var parentElement = document.getElementById(id)
+    var listeningElement = parentElement.querySelector('.listening')
+    var receivedElement = parentElement.querySelector('.received')
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+    listeningElement.setAttribute('style', 'display:none;')
+    receivedElement.setAttribute('style', 'display:block;')
 
-        console.log('Received Event: ' + id);
-    }
-};
+    console.log('Received Event: ' + id)
+  }
+}
 
-app.initialize();
+app.initialize()
+
+const activateZendrive = () => {
+  // var applicationKey = 'CV7m4UTV3gHYNWITD9xPqUYvlrqCQMZ6'
+  // var driverId = 'ABC123'
+  // var config = new Zendrive.ZendriveConfiguration(applicationKey, driverId)
+  // var driverAttributes = new Zendrive.ZendriveDriverAttributes()
+  // driverAttributes.firstName = 'Thomas'
+  // driverAttributes.lastName = 'Anderson'
+  // driverAttributes.email = 'neo@onestepride.com'
+  // driverAttributes.group = 'matrix'
+  // driverAttributes.phoneNumber = '11234567890'
+  // driverAttributes.driverStartDate = 1428953991
+  // driverAttributes.setCustomAttribute('custom_key', 'custom_value')
+  // config.driverAttributes = driverAttributes
+  // config.driveDetectionMode = Zendrive.ZendriveDriveDetectionMode.ZendriveDriveDetectionModeAutoON
+  // var processStartOfDrive = function (zendriveDriveStartInfo) {
+  //   alert('processStartOfDrive: ' + JSON.stringify(zendriveDriveStartInfo))
+  // }
+  // var processEndOfDrive = function (zendriveDriveInfo) {
+  //   alert('processEndOfDrive: ' + JSON.stringify(zendriveDriveInfo))
+  // }
+  // var processLocationDenied = function () {
+  //   alert('Location denied, please enable location services to keep Zendrive working')
+  // }
+
+  // var zendriveCallback = new Zendrive.ZendriveCallback(
+  //   processStartOfDrive, processEndOfDrive, processLocationDenied)
+
+  Zendrive.setup(
+    null, // config,
+    null, // zendriveCallback,
+    function () { alert('Setup done!') },
+    function (error) { alert('Setup failed: ' + error) }
+  )
+}

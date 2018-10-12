@@ -5,44 +5,48 @@
     build-mode="FULL"
     density="560dpi"
     format="10"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.2.0"
-    timestamp="1539274480372"
+    timestamp="1539356462768"
     token="5039100556068141289"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="150" />
+        duration="555" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="199" />
+        duration="152" />
     <task
         name="verifier"
-        duration="50" />
+        duration="31" />
 
     <artifact
+        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
         location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -59,28 +63,32 @@
 
     <build
         build-mode="FULL"
-        timestamp="1539274480372"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1539356462768"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/lcong/workspace/tttt/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"

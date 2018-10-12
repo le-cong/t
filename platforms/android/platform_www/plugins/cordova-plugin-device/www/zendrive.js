@@ -1,12 +1,12 @@
 cordova.define("cordova-plugin-device.ZendriveCordovaPlugin", function(require, exports, module) {
-/*global cordova, module*/
-var exec = require('cordova/exec');
+/*global cordova, module */
+var exec = require('cordova/exec')
 
 /**
  * Zendrive global namespace
  * @namespace
  */
-var Zendrive = {};
+var Zendrive = {}
 
 /**
  * @class Callback for Zendrive
@@ -20,14 +20,14 @@ var Zendrive = {};
  * specific callback. Called on callback when location services are denied for the SDK.
  * @constructor
  */
-Zendrive.ZendriveCallback = function(processStartOfDrive, processEndOfDrive, processLocationDenied) {
-    /**
+Zendrive.ZendriveCallback = function (processStartOfDrive, processEndOfDrive, processLocationDenied) {
+  /**
      * Called on callback when Zendrive SDK detects a potential start of a drive.
      * @callback processStartOfDrive
      * @param {Zendrive.ZendriveDriveStartInfo} driveStartInfo Information about start of a drive.
      * @memberOf Zendrive.ZendriveCallback
      */
-    this.processStartOfDrive = processStartOfDrive;
+  this.processStartOfDrive = processStartOfDrive
 
     /**
      * Called on the callback when Zendrive SDK detects a drive to have been completed.
@@ -35,7 +35,7 @@ Zendrive.ZendriveCallback = function(processStartOfDrive, processEndOfDrive, pro
      * @param {Zendrive.ZendriveDriveInfo} driveInfo Meta-information related to a drive.
      * @memberOf Zendrive.ZendriveCallback
      */
-    this.processEndOfDrive = processEndOfDrive;
+    this.processEndOfDrive = processEndOfDrive
 
     /**
      * This is an iOS specific callback. Called on callback when location services are denied for the SDK.
@@ -43,25 +43,25 @@ Zendrive.ZendriveCallback = function(processStartOfDrive, processEndOfDrive, pro
      * @callback processLocationDenied
      * @memberOf Zendrive.ZendriveCallback
      */
-    this.processLocationDenied = processLocationDenied;
+    this.processLocationDenied = processLocationDenied
 };
 
-Zendrive.registerForDelegateCallbacks = function(zendriveCallback) {
-    var callbackNotNull = (null != zendriveCallback);
+Zendrive.registerForDelegateCallbacks = function (zendriveCallback) {
+  var callbackNotNull = (zendriveCallback != null)
 
     // We are allowing to clear out existing individual callbacks by sending null
     // for callback and the bool as false for first argument
-    var processStartOfDriveCallback = callbackNotNull ? zendriveCallback.processStartOfDrive :null;
-    exec(processStartOfDriveCallback, null, "Zendrive", "setProcessStartOfDriveDelegateCallback",
-        [(null != processStartOfDriveCallback)]);
+    var processStartOfDriveCallback = callbackNotNull ? zendriveCallback.processStartOfDrive : null
+    exec(processStartOfDriveCallback, null, 'Zendrive', 'setProcessStartOfDriveDelegateCallback',
+    [(processStartOfDriveCallback != null)])
 
-    var processEndOfDriveCallback = callbackNotNull ? zendriveCallback.processEndOfDrive :null;
-    exec(processEndOfDriveCallback, null, "Zendrive", "setProcessEndOfDriveDelegateCallback",
-        [(null != processEndOfDriveCallback)]);
+    var processEndOfDriveCallback = callbackNotNull ? zendriveCallback.processEndOfDrive : null
+    exec(processEndOfDriveCallback, null, 'Zendrive', 'setProcessEndOfDriveDelegateCallback',
+    [(processEndOfDriveCallback != null)])
 
-    var processLocationDeniedCallback = callbackNotNull ? zendriveCallback.processLocationDenied :null;
-    exec(processLocationDeniedCallback, null, "Zendrive", "setProcessLocationDeniedDelegateCallback",
-        [(null != processLocationDeniedCallback)]);
+    var processLocationDeniedCallback = callbackNotNull ? zendriveCallback.processLocationDenied : null
+    exec(processLocationDeniedCallback, null, 'Zendrive', 'setProcessLocationDeniedDelegateCallback',
+    [(processLocationDeniedCallback != null)])
 };
 
 /**
@@ -75,16 +75,16 @@ Zendrive.registerForDelegateCallbacks = function(zendriveCallback) {
  * @param  {Zendrive.setupSuccessCallback} successCallback - This is called when Zendrive SDK setup succeeds
  * @param  {Zendrive.failureCallback} errorCallback - This is called if Zendrive SDK setup fails for some reason
  */
-Zendrive.setup = function(zendriveConfiguration, zendriveCallback, successCallback, errorCallback) {
-    Zendrive.callback = zendriveCallback;
-    Zendrive.registerForDelegateCallbacks(zendriveCallback);
+Zendrive.setup = function (zendriveConfiguration, zendriveCallback, successCallback, errorCallback) {
+  // Zendrive.callback = zendriveCallback;
+  // Zendrive.registerForDelegateCallbacks(zendriveCallback);
 
-    /**
+  /**
      * Setup success callback
      * @callback setupSuccessCallback
      * @memberOf Zendrive
      */
-    var setupSuccessCallback = successCallback;
+  var setupSuccessCallback = successCallback
 
     /**
      * Failure callback
@@ -92,16 +92,16 @@ Zendrive.setup = function(zendriveConfiguration, zendriveCallback, successCallba
      * @param {String} error This will have an error message
      * @memberOf Zendrive
      */
-    var setupFailureCallback = errorCallback;
+    var setupFailureCallback = errorCallback
 
-    exec(setupSuccessCallback, setupFailureCallback, "Zendrive", "setup", [zendriveConfiguration]);
+    exec(setupSuccessCallback, setupFailureCallback, 'Zendrive', 'setup', [zendriveConfiguration])
 };
 
 /**
  * Stops driving data collection. The application can disable the Zendrive SDK by invoking this method.
  */
-Zendrive.teardown = function() {
-    exec(null, null,"Zendrive","teardown", []);
+Zendrive.teardown = function () {
+  exec(null, null, 'Zendrive', 'teardown', [])
 };
 
 /**
@@ -113,23 +113,23 @@ Zendrive.teardown = function() {
  *  drive data. Cannot be null or empty string. Cannot be longer than 64 characters. Sending null or
  *  empty string as tracking id is a no-op.
  */
-Zendrive.startDrive = function(driveTrackingId) {
-    exec(null, null, "Zendrive", "startDrive", [driveTrackingId]);
+Zendrive.startDrive = function (driveTrackingId) {
+  exec(null, null, 'Zendrive', 'startDrive', [driveTrackingId])
 };
 
 /**
  * This method provides information about current active drive.
  * @param  {Zendrive.activeDriveCallback} callback - Callback containing active drive information.
  */
-Zendrive.getActiveDriveInfo = function(callback) {
-    /**
+Zendrive.getActiveDriveInfo = function (callback) {
+  /**
      * active drive callback
      * @callback activeDriveCallback
      * @param {Zendrive.ZendriveActiveDriveInfo} information about the currently active drive.
      * @memberOf Zendrive
      */
-    var activeDriveCallback = callback;
-    exec(activeDriveCallback, null, "Zendrive", "getActiveDriveInfo", []);
+  var activeDriveCallback = callback
+    exec(activeDriveCallback, null, 'Zendrive', 'getActiveDriveInfo', [])
 };
 
 /**
@@ -139,8 +139,8 @@ Zendrive.getActiveDriveInfo = function(callback) {
  * @{@link Zendrive.startDrive} while starting the current drive. If the trackingIds do not match, this
  * function is a no-op. Cannot be null or empty string.
  */
-Zendrive.stopDrive = function(driveTrackingId) {
-    exec(null, null,"Zendrive","stopDrive", [driveTrackingId]);
+Zendrive.stopDrive = function (driveTrackingId) {
+  exec(null, null, 'Zendrive', 'stopDrive', [driveTrackingId])
 };
 
 /**
@@ -157,8 +157,8 @@ Zendrive.stopDrive = function(driveTrackingId) {
  * @param  {String} sessionId - an identifier that identifies this session uniquely. Cannot be null
  * or an empty string. Cannot be longer than 64 characters.
  */
-Zendrive.startSession = function(sessionId) {
-    exec(null, null,"Zendrive","startSession", [sessionId]);
+Zendrive.startSession = function (sessionId) {
+  exec(null, null, 'Zendrive', 'startSession', [sessionId])
 };
 
 /**
@@ -166,8 +166,8 @@ Zendrive.startSession = function(sessionId) {
  * do not belong to the session. Ongoing trips at the time of this call will continue to belong to
  * the session that was just stopped.
  */
-Zendrive.stopSession = function() {
-    exec(null, null,"Zendrive","stopSession", []);
+Zendrive.stopSession = function () {
+  exec(null, null, 'Zendrive', 'stopSession', [])
 };
 
 /**
@@ -177,8 +177,8 @@ Zendrive.stopSession = function() {
  *
  * @param {Zendrive.ZendriveDriveDetectionMode}
  */
-Zendrive.setDriveDetectionMode = function(driveDetectionMode) {
-    exec(null, null, "Zendrive", "setDriveDetectionMode", [driveDetectionMode]);
+Zendrive.setDriveDetectionMode = function (driveDetectionMode) {
+  exec(null, null, 'Zendrive', 'setDriveDetectionMode', [driveDetectionMode])
 };
 
 /**
@@ -186,22 +186,22 @@ Zendrive.setDriveDetectionMode = function(driveDetectionMode) {
  * @enum {number}
  */
 Zendrive.ZendriveDriveDetectionMode = {
-    /**
+  /**
      * Zendrive SDK will automatically track drives in background in this mode once the SDK is setup.
      *  At the same time, the application can invoke @{@link Zendrive.startDrive} to explicitly start
      *  recording a drive. This is the Default mode.
      * @type {Number}
      */
-    ZendriveDriveDetectionModeAutoON : 0,
+  ZendriveDriveDetectionModeAutoON: 0,
 
-    /**
+  /**
      * In this mode auto drive-detection is disabled. All other APIs on Zendrive can be invoked
      * independent of this mode. For recording trips in this mode, the application has to explicitly
      *  invoke the @{@link Zendrive.startDrive} method.
      * @type {Number}
      */
-    ZendriveDriveDetectionModeAutoOFF: 1
-};
+  ZendriveDriveDetectionModeAutoOFF: 1
+}
 
 /**
  * @class Additional attributes of a Zendrive driver.
@@ -211,62 +211,62 @@ Zendrive.ZendriveDriveDetectionMode = {
  * with a driver using the Zendrive SDK.
  * @constructor
  */
-Zendrive.ZendriveDriverAttributes = function() {
-    /**
+Zendrive.ZendriveDriverAttributes = function () {
+  /**
      * First name of the user.
      * @type {String}
      */
-    this.firstName = null;
+  this.firstName = null
 
     /**
      * Last name of the user.
      * @type {String}
      */
-    this.lastName = null;
+    this.lastName = null
 
     /**
      * Email of the user.
      * @type {String}
      */
-    this.email = null;
+    this.email = null
 
     /**
      * A unique id that associates the current user to a group. This groupId will be made available
      * as a query parameter to filter users in the reports and API that Zendrive provides.
      * @type {String}
      */
-    this.group = null;
+    this.group = null
 
     /**
      * Phone number of the user without '+' character.
      * @type {String}
      */
-    this.phoneNumber = null;
+    this.phoneNumber = null
 
     /**
      * The date in seconds at which the driver signed up/started using your application.
      * The date would be available in YYYY-MM-DD format on Zendrvie dashboard
      * @type {number}
      */
-    this.driverStartDate = null;
+    this.driverStartDate = null
 
     /**
      * Don't modify this directly, use setCustomAttribute(key, value)
      * @type {Object}
      */
-    this.customAttributes = {};
+    this.customAttributes = {}
 
     /**
      * Set the custom attribute of the user, maximum 4 custom attributes are allowed.
      * @param {String} key - A key for the custom attribute. The maximum key length is 64 characters.
      * @param {String} value - Value of the custom attribute. The maximum value length is 64 characters.
      */
-    this.setCustomAttribute = function(key, value) {
-        // TODO: Add success and error callbacks in case tried to set more than the
-        // allowed number of attributes.
-        this.customAttributes[key] = value;
+    this.setCustomAttribute = function (key, value) {
+    // TODO: Add success and error callbacks in case tried to set more than the
+    // allowed number of attributes.
+    this.customAttributes[key] = value
     }
-};
+}
 
 /**
  * @class This class contains parameters required by @{@link Zendrive} during @{@link Zendrive.setup}.
@@ -276,18 +276,18 @@ Zendrive.ZendriveDriverAttributes = function() {
  * identify its users. This is the ID which will be used in Zendrive reports.
  */
 Zendrive.ZendriveConfiguration = function (applicationKey, driverId) {
-    /**
+  /**
      * Your application key
      * @type {String}
      */
-    this.applicationKey = applicationKey;
+  this.applicationKey = applicationKey
 
     /**
      * Unique ID for the current user. This can be any ID used by your app to
      * identify its users. This is the ID which will be used in Zendrive reports.
      * @type {String}
      */
-    this.driverId = driverId;
+    this.driverId = driverId
 
     /**
      * Attributes for the current user. These attributes are stored on the server and are provided
@@ -295,14 +295,14 @@ Zendrive.ZendriveConfiguration = function (applicationKey, driverId) {
      * non-null value for this param is passed. Passing null is a no-op.
      * @type {Zendrive.ZendriveDriverAttributes}
      */
-    this.driverAttributes = null;
+    this.driverAttributes = null
 
     /**
      * Use this mode to control the SDK’s behaviour for detecting drives automatically.
      * This mode can be changed at a later point using @{@link Zendrive.setDriveDetectionMode} method.
      * @type {Zendrive.ZendriveDriveDetectionMode}
      */
-    this.driveDetectionMode = Zendrive.ZendriveDriveDetectionMode.ZendriveDriveDetectionModeAutoON;
+    this.driveDetectionMode = Zendrive.ZendriveDriveDetectionMode.ZendriveDriveDetectionModeAutoON
 };
 
 /**
@@ -310,29 +310,29 @@ Zendrive.ZendriveConfiguration = function (applicationKey, driverId) {
  * @constructor
  */
 Zendrive.ZendriveDriveInfo = function () {
-    /**
+  /**
      * The average speed of trip in metres/second
      * @type {Number}
      */
-    this.averageSpeed = 0.0;
+  this.averageSpeed = 0.0
 
     /**
      * The distance of the trip in metres
      * @type {Number}
      */
-    this.distance = 0.0;
+    this.distance = 0.0
 
     /**
      * The end timestamp of trip in milliseconds since epoch
      * @type {Number}
      */
-    this.endTimestamp = 0;
+    this.endTimestamp = 0
 
     /**
      * The start timestamp of trip in milliseconds since epoch.
      * @type {Number}
      */
-    this.startTimestamp = 0;
+    this.startTimestamp = 0
 
     /**
      * Sometimes, the SDK detects that a drive is invalid after it has been started.
@@ -340,14 +340,14 @@ Zendrive.ZendriveDriveInfo = function () {
      * in this class have default values.
      * @type {Boolean}
      */
-    this.isValid = true;
+    this.isValid = true
 
     /**
      * A list of @{@link Zendrive.ZendriveLocationPoint} objects corresponding to this trip in increasing order of
      * timestamp. The first point corresponds to trip start location and last to trip end location.
      * @type {Array}
      */
-    this.waypoints = [];
+    this.waypoints = []
 }
 
 /**
@@ -355,24 +355,23 @@ Zendrive.ZendriveDriveInfo = function () {
  * @constructor
  */
 Zendrive.ZendriveActiveDriveInfo = function () {
-
-    /**
+  /**
      * The start timestamp of trip in milliseconds since epoch.
      * @type {Number}
      */
-    this.startTimestamp = 0;
+  this.startTimestamp = 0
 
     /**
      * tracking Id correlates apps internal data with the drive data.
      * @type {String}
     */
-    this.trackingId;
+    this.trackingId
 
     /**
      * Identifier that identifies this session uniquely.
      * @type {String}
      */
-    this.sessionId;
+    this.sessionId
 }
 
 /**
@@ -380,11 +379,11 @@ Zendrive.ZendriveActiveDriveInfo = function () {
  * @constructor
  */
 Zendrive.ZendriveDriveStartInfo = function () {
-    /**
+  /**
      * The start timestamp of trip in milliseconds since epoch.
      * @type {Number}
      */
-    this.startTimestamp = 0;
+  this.startTimestamp = 0
 
     /**
      * The start location of the drive.
@@ -393,7 +392,7 @@ Zendrive.ZendriveDriveStartInfo = function () {
      * is approximate and close to the start location but not exactly the start location.
      * @type {Zendrive.ZendriveLocationPoint}
      */
-    this.startLocation = null;
+    this.startLocation = null
 }
 
 /**
@@ -401,19 +400,19 @@ Zendrive.ZendriveDriveStartInfo = function () {
  * @constructor
  */
 Zendrive.ZendriveLocationPoint = function () {
-    /**
+  /**
      * Latitude in degrees
      * @type {Number}
      */
-    this.latitude = 0.0;
+  this.latitude = 0.0
 
     /**
      * Longitude in degrees
      * @type {Number}
      */
-    this.longitude = 0.0;
+    this.longitude = 0.0
 }
 
-module.exports = Zendrive;
+module.exports = Zendrive
 
 });

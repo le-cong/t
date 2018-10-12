@@ -5,7 +5,9 @@
     android:versionCode="10000"
     android:versionName="1.0.0" >
 
-    <uses-sdk android:minSdkVersion="19" />
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
 
     <supports-screens
         android:anyDensity="true"
@@ -15,7 +17,16 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:debuggable="true"
@@ -37,6 +48,66 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.zendrive.sdk.services.ZendriveService"
+            android:enabled="@bool/zendrive_service_enabled"
+            android:label="ZendriveService1" />
+        <service
+            android:name="com.zendrive.sdk.services.ZendriveJobService"
+            android:label="ZendriveService2" />
+        <service
+            android:name="com.zendrive.sdk.services.TripService"
+            android:label="ZendriveService3" />
+        <service
+            android:name="com.zendrive.sdk.services.FileUploaderService"
+            android:label="ZendriveService4" />
+
+        <receiver
+            android:name="com.zendrive.sdk.receiver.WakeupReceiver"
+            android:label="ZendriveReceiver" />
+        <receiver
+            android:name="com.zendrive.sdk.receiver.UserActivityReceiver"
+            android:label="ZendriveReceiver2" />
+        <receiver
+            android:name="com.zendrive.sdk.receiver.NoPowerLocationUpdateReceiver"
+            android:label="ZendriveReceiver3" />
+        <receiver
+            android:name="com.zendrive.sdk.receiver.SetupReceiver"
+            android:label="ZendriveReceiver4" />
+        <receiver
+            android:name="com.zendrive.sdk.receiver.ZendrivePackageReplacedReceiver"
+            android:label="ZendriveReceiver5" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.zendrive.sdk.utilities.ZendriveContentProvider"
+            android:authorities="com.onestepride.tttt.com.zendrive.ContentProvider"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

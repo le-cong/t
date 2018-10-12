@@ -11,8 +11,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "^7.1.0",
-    "cordova-plugin-whitelist": "^1.3.3",
-    "cordova-plugin-device": "../t"
+    "cordova-plugin-device": "file:../t",
+    "cordova-plugin-whitelist": "^1.3.3"
   },
   "cordova": {
     "plugins": {
